@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display');
+
+/* font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif; */
+.header {
+    margin-top: 1rem;
+    height: 12rem;
+    background-color: #004990;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.subtitle {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #004990;
+    font-size: 1.0em;
+}
+
+.subtitle-area {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    word-spacing: 12px;
+    padding-top: 15px;
+}
+
+.img-logo {
+    max-width: 40%;
+    height: auto;
+    cursor: pointer;
+    outline-style: none;
+}
+
+
+/* BOOTSTRAP NAVBAR CUSTOMIZATIONS */
+
+.navbar {
+    padding: 2rem;
+    position: relative;
+    z-index: 10000;
+    text-align: center; 
+    justify-content: center;
+}
+
+.navbar-expand-lg {
+        text-align: center; 
+    justify-content: center;
+}
+
+.navbar-collapse.collapse.in {
+    display: block!important;
+  }
+
+/* RESPONSIVE WEB DESIGN */
+
+/* iPhone X */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px) 
+and (-webkit-device-pixel-ratio : 3)
+and (orientation : portrait) { 
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        color: #fff;
+        font-size: 2em;
+        margin: 0;
+        padding: 0;
+    }
+
+    .h1p {
+        font-family:'Lato', sans-serif;
+        color: #fff;
+        font-size: 1em;
+    }
+
+    h2 {
+        padding-bottom: 5px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        color: green;
+        font-size: 1em;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        font-family: 'Lato', sans-serif;
+        color: white;
+        font-size: 1em;
+    }
+
+ }
+ /* iPhone 6, 7, 8 */
+ @media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (orientation : portrait) { 
+    h1 {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        color: #fff;
+        font-size: 2em;
+    }
+
+    .h1p {
+        font-family:'Lato', sans-serif;
+        color: #fff;
+        font-size: 0.8em;
+    }
+
+ }
+
+ /* iPhone 5/5s */
+ @media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+
+    .header {
+        width: auto;
+        height: 8rem;
+        background-color: #374c92;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    p {
+        font-family: 'Lato', sans-serif;
+        color: #666;
+        text-align: center;
+        font-size: 1.0em;
+    }
+
+    .img-logo {
+        max-width: 90%;
+        height: auto;
+    }
+
+    .subtitle {
+        font-family: 'Playfair Display', serif;
+        font-weight: 700;
+        color: #004990;
+        font-size: 0.8em;
+    }
+    
+    .subtitle-area {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-content: center;
+        justify-content: space-evenly;
+        word-spacing: 8px;
+    }
+
+    .navbar-toggler {
+        width: 51px;
+        height: 35px;
+    }
+
+    .navbar-toggler-icon {
+    width: 25px;
+    height: 25px;
+    }
+ }
+
+ /* ----------- iPad Pro ----------- */
+/* Portrait and Landscape */
+@media only screen 
+and (min-width: 1024px) 
+and (max-height: 1366px) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Portrait */
+@media only screen 
+and (min-width: 1024px) 
+and (max-height: 1366px) 
+and (orientation: portrait) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+}
+
+/* Landscape */
+@media only screen 
+and (min-width: 1024px) 
+and (max-height: 1366px) 
+and (orientation: landscape) 
+and (-webkit-min-device-pixel-ratio: 1.5) {
+
+}
