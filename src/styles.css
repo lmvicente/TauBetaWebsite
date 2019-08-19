@@ -2,7 +2,7 @@
 
 /* font-family: 'Lato', sans-serif;
 font-family: 'Playfair Display', serif; */
-
+ 
 * {
     margin: 0;
     padding: 0;
@@ -35,6 +35,9 @@ h2 {
     padding: 0;
 }
 
+b {
+    color: #004990;
+}
 p {
     font-family: 'Lato', sans-serif;
     color: #666;

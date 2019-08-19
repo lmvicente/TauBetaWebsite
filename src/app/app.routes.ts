@@ -5,6 +5,7 @@ import { JointFamilyTreeComponent } from './joint-family-tree/joint-family-tree.
 import { CurrentSistersComponent } from './current-sisters/current-sisters.component';
 import { ChapterMembersComponent } from './chapter-members/chapter-members.component';
 import { BandHistoryComponent } from './band-history/band-history.component';
+import { ChapterHistoryComponent } from './chapter-history/chapter-history.component';
 
 const appRoutes: Routes = [
   {
@@ -13,8 +14,10 @@ const appRoutes: Routes = [
   }, {
     path: 'home',
     component: HomeComponent
-  },
-  {
+  }, {
+    path: 'chapter-history',
+    component: ChapterHistoryComponent
+  }, {
     path: 'about',
     component: AboutUsComponent
   },

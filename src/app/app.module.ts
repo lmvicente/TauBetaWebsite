@@ -12,6 +12,7 @@ import { CurrentSistersComponent } from './current-sisters/current-sisters.compo
 import { ChapterMembersComponent } from './chapter-members/chapter-members.component';
 import { JointFamilyTreeComponent } from './joint-family-tree/joint-family-tree.component';
 import { BandHistoryComponent } from './band-history/band-history.component';
+import { ChapterHistoryComponent } from './chapter-history/chapter-history.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { BandHistoryComponent } from './band-history/band-history.component';
     CurrentSistersComponent,
     ChapterMembersComponent,
     JointFamilyTreeComponent,
-    BandHistoryComponent
+    BandHistoryComponent,
+    ChapterHistoryComponent
   ],
   imports: [
     BrowserModule,

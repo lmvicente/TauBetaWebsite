@@ -3,3 +3,44 @@
     padding: 50px;
 }
 
+
+/* xSmall (xsm) */
+@media (min-width: 320px) { 
+    .resized {
+        width: 100%;
+        padding: 5px;
+    }
+ }
+
+
+/* Small (sm) */
+@media (min-width: 640px) { 
+    .resized {
+    width: 100%;
+    padding: 10px;
+}
+ }
+
+/* Medium (md) */
+@media (min-width: 768px) { 
+    .resized {
+    width: 100%;
+    padding: 25px;
+} 
+}
+
+/* Large (lg) */
+@media (min-width: 1024px) { 
+    .resized {
+    width: 100%;
+    padding: 50px;
+} 
+}
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { 
+    .resized {
+    width: 100%;
+    padding: 100px;
+}
+ }
