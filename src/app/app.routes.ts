@@ -7,6 +7,8 @@ import { ChapterMembersComponent } from './chapter-members/chapter-members.compo
 import { BandHistoryComponent } from './band-history/band-history.component';
 import { ChapterHistoryComponent } from './chapter-history/chapter-history.component';
 
+
+
 const appRoutes: Routes = [
   {
     path: '',
@@ -40,3 +42,6 @@ const appRoutes: Routes = [
 ];
 
 export const AppRoutes = RouterModule.forRoot(appRoutes);
+
+
+

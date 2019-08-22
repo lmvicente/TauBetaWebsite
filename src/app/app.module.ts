@@ -38,4 +38,5 @@ import { ChapterHistoryComponent } from './chapter-history/chapter-history.compo
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
