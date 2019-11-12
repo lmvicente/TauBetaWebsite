@@ -89,10 +89,26 @@ font-family: 'Playfair Display', serif; */
     padding-bottom: 2rem;
     width: 100%;
     height: auto;
-    background-color: whitesmoke;
+    background-color: #004990;
 
 }
 
+.mr-3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #004990;
+    font-size: 1.3rem;
+    height: auto;
+}
+
+.mr-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    color: #666;
+    font-size: 2rem;
+    line-height: 1;
+
+}
 /* BOOTSTRAP NAVBAR CUSTOMIZATIONS */
 
 /* .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link */
